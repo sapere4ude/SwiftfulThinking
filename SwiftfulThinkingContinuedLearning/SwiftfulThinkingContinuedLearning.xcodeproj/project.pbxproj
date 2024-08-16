@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2E78902C6F980000A3D45A /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E788F2C6F980000A3D45A /* MultipleSheetsBootcamp.swift */; };
 		BE4877DE2C6C2E8000CECB09 /* SwiftfulThinkingContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4877DD2C6C2E8000CECB09 /* SwiftfulThinkingContinuedLearningApp.swift */; };
 		BE4877E02C6C2E8000CECB09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4877DF2C6C2E8000CECB09 /* ContentView.swift */; };
 		BE4877E22C6C2E8100CECB09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4877E12C6C2E8100CECB09 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE2E788F2C6F980000A3D45A /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		BE4877DA2C6C2E8000CECB09 /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4877DD2C6C2E8000CECB09 /* SwiftfulThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
 		BE4877DF2C6C2E8000CECB09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				BE4877DF2C6C2E8000CECB09 /* ContentView.swift */,
 				BE4877E12C6C2E8100CECB09 /* Assets.xcassets */,
 				BE4877E32C6C2E8100CECB09 /* Preview Content */,
+				BE2E788F2C6F980000A3D45A /* MultipleSheetsBootcamp.swift */,
 			);
 			path = SwiftfulThinkingContinuedLearning;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4877E02C6C2E8000CECB09 /* ContentView.swift in Sources */,
+				BE2E78902C6F980000A3D45A /* MultipleSheetsBootcamp.swift in Sources */,
 				BE4877DE2C6C2E8000CECB09 /* SwiftfulThinkingContinuedLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
