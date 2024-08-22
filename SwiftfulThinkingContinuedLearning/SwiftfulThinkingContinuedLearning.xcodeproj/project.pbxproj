@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BE14BF352C74CA6D009EF6C5 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14BF342C74CA6D009EF6C5 /* HapticsBootcamp.swift */; };
 		BE14BF372C760552009EF6C5 /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14BF362C760552009EF6C5 /* LocalNotificationBootcamp.swift */; };
+		BE14BF752C77483C009EF6C5 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14BF742C77483C009EF6C5 /* HashableBootcamp.swift */; };
 		BE2E78902C6F980000A3D45A /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E788F2C6F980000A3D45A /* MultipleSheetsBootcamp.swift */; };
 		BE2E78922C702E7100A3D45A /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E78912C702E7100A3D45A /* MaskBootcamp.swift */; };
 		BE2E78942C723D8A00A3D45A /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E78932C723D8A00A3D45A /* SoundsBootcamp.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		BE14BF342C74CA6D009EF6C5 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		BE14BF362C760552009EF6C5 /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
+		BE14BF742C77483C009EF6C5 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		BE2E788F2C6F980000A3D45A /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		BE2E78912C702E7100A3D45A /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		BE2E78932C723D8A00A3D45A /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		BE4877D12C6C2E8000CECB09 = {
 			isa = PBXGroup;
 			children = (
+				BE14BF742C77483C009EF6C5 /* HashableBootcamp.swift */,
 				BE14BF362C760552009EF6C5 /* LocalNotificationBootcamp.swift */,
 				BE14BF342C74CA6D009EF6C5 /* HapticsBootcamp.swift */,
 				BE2E78912C702E7100A3D45A /* MaskBootcamp.swift */,
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE14BF752C77483C009EF6C5 /* HashableBootcamp.swift in Sources */,
 				BE2E78942C723D8A00A3D45A /* SoundsBootcamp.swift in Sources */,
 				BE14BF372C760552009EF6C5 /* LocalNotificationBootcamp.swift in Sources */,
 				BE14BF352C74CA6D009EF6C5 /* HapticsBootcamp.swift in Sources */,
