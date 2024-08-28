@@ -11,6 +11,8 @@
 		BE14BF372C760552009EF6C5 /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14BF362C760552009EF6C5 /* LocalNotificationBootcamp.swift */; };
 		BE14BF752C77483C009EF6C5 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14BF742C77483C009EF6C5 /* HashableBootcamp.swift */; };
 		BE14BF7B2C79D30F009EF6C5 /* ArrayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14BF7A2C79D30F009EF6C5 /* ArrayBootcamp.swift */; };
+		BE14BFB82C7F5820009EF6C5 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14BFB72C7F5820009EF6C5 /* CoreDataBootcamp.swift */; };
+		BE14BFBB2C7F5858009EF6C5 /* FruitEntity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE14BFB92C7F5858009EF6C5 /* FruitEntity.xcdatamodeld */; };
 		BE2E78902C6F980000A3D45A /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E788F2C6F980000A3D45A /* MultipleSheetsBootcamp.swift */; };
 		BE2E78922C702E7100A3D45A /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E78912C702E7100A3D45A /* MaskBootcamp.swift */; };
 		BE2E78942C723D8A00A3D45A /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E78932C723D8A00A3D45A /* SoundsBootcamp.swift */; };
@@ -45,6 +47,8 @@
 		BE14BF362C760552009EF6C5 /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
 		BE14BF742C77483C009EF6C5 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		BE14BF7A2C79D30F009EF6C5 /* ArrayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBootcamp.swift; sourceTree = "<group>"; };
+		BE14BFB72C7F5820009EF6C5 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
+		BE14BFBA2C7F5858009EF6C5 /* FruitEntity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitEntity.xcdatamodel; sourceTree = "<group>"; };
 		BE2E788F2C6F980000A3D45A /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		BE2E78912C702E7100A3D45A /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		BE2E78932C723D8A00A3D45A /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
@@ -120,7 +124,9 @@
 		BE4877D12C6C2E8000CECB09 = {
 			isa = PBXGroup;
 			children = (
+				BE14BFB92C7F5858009EF6C5 /* FruitEntity.xcdatamodeld */,
 				BE14BF7A2C79D30F009EF6C5 /* ArrayBootcamp.swift */,
+				BE14BFB72C7F5820009EF6C5 /* CoreDataBootcamp.swift */,
 				BE14BF742C77483C009EF6C5 /* HashableBootcamp.swift */,
 				BE14BF362C760552009EF6C5 /* LocalNotificationBootcamp.swift */,
 				BE14BF342C74CA6D009EF6C5 /* HapticsBootcamp.swift */,
@@ -316,11 +322,13 @@
 				BE14BF752C77483C009EF6C5 /* HashableBootcamp.swift in Sources */,
 				BE2E78942C723D8A00A3D45A /* SoundsBootcamp.swift in Sources */,
 				BE14BF7B2C79D30F009EF6C5 /* ArrayBootcamp.swift in Sources */,
+				BE14BFBB2C7F5858009EF6C5 /* FruitEntity.xcdatamodeld in Sources */,
 				BE14BF372C760552009EF6C5 /* LocalNotificationBootcamp.swift in Sources */,
 				BE14BF352C74CA6D009EF6C5 /* HapticsBootcamp.swift in Sources */,
 				BE4877E02C6C2E8000CECB09 /* ContentView.swift in Sources */,
 				BE2E78902C6F980000A3D45A /* MultipleSheetsBootcamp.swift in Sources */,
 				BE4877DE2C6C2E8000CECB09 /* SwiftfulThinkingContinuedLearningApp.swift in Sources */,
+				BE14BFB82C7F5820009EF6C5 /* CoreDataBootcamp.swift in Sources */,
 				BE2E78922C702E7100A3D45A /* MaskBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -641,6 +649,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE14BFB92C7F5858009EF6C5 /* FruitEntity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE14BFBA2C7F5858009EF6C5 /* FruitEntity.xcdatamodel */,
+			);
+			currentVersion = BE14BFBA2C7F5858009EF6C5 /* FruitEntity.xcdatamodel */;
+			path = FruitEntity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BE4877D22C6C2E8000CECB09 /* Project object */;
 }
