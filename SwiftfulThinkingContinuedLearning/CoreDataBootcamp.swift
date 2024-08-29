@@ -18,6 +18,7 @@ class CoreDataViewModel: ObservableObject {
     @Published var savedEntities: [FruitEntity] = []
     
     init() {
+        // Core Data 핵심 부분
         container = NSPersistentContainer(name: "FruitsContainer")
         container.loadPersistentStores { description, error in
             if let error = error {
@@ -45,8 +46,18 @@ class CoreDataViewModel: ObservableObject {
         saveData()
     }
     
+    func updateFruit(entitiy: FruitEntity) {
+        let currentName = entitiy.name ?? ""
+        let newName = currentName + "!"
+        entitiy.name = newName
+        saveData()
+    }
+    
     func deleteFruit(indexSet: IndexSet) {
-        
+        guard let index = indexSet.first else { return }
+        let entity = savedEntities[index]
+        container.viewContext.delete(entity)
+        saveData()
     }
     
     func saveData() {
@@ -76,9 +87,11 @@ struct CoreDataBootcamp: View {
                     .padding(.horizontal)
                 
                 Button(action: {
-                    
+                    guard !textFieldText.isEmpty else { return }
+                    vm.addFruit(text: textFieldText)
+                    textFieldText = ""
                 }, label: {
-                    Text("Button")
+                    Text("Save")
                         .font(.headline)
                         .foregroundColor(.white)
                         .frame(height: 55)
@@ -91,6 +104,9 @@ struct CoreDataBootcamp: View {
                 List {
                     ForEach(vm.savedEntities) { entity in
                         Text(entity.name ?? "NO NAME")
+                            .onTapGesture {
+                                vm.updateFruit(entitiy: entity)
+                            }
                     }
                     .onDelete(perform: vm.deleteFruit)
                 }
@@ -106,3 +122,4 @@ struct CoreDataBootcamp: View {
 #Preview {
     CoreDataBootcamp()
 }
+
